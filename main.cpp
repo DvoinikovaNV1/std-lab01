@@ -1,7 +1,12 @@
 #include <stdio.h>
-
-int main(int argc, char **argv)
-{
-	printf("hello world\n");
+#include <iostream>
+int main()
+{ 
+	int a ;
+	std::cout<<"vvedite a =";
+	std::cin>>a;
+	int b ;
+	std::cout<<"vvedite b =";
+	std::cin>>b;
 	return 0;
 }
